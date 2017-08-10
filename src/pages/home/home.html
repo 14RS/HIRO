@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <div>
+    <img src="assets/img/SxTcA93XQx20w5E41xvt_AppIcon.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  </div>
+  <div class="spacer" style="width:300px;height:70px;" id="home-spacer1"></div>
+  <button id="home-button1" ion-button color="positive" block on-click="goToDiscoverFeatures()">
+    Get started, hiro!
+  </button>
+  <button color="energized" id="home-button2" ion-button outline color="positive" block on-click="goToLiveImages()">
+    I have live images! 
+  </button>
+  <h1 ion-text color="primary">{{appTitle}}</h1>
+  <h1 ion-text color="energized" [innerHTML]="appTitle"></h1>
+</ion-content>

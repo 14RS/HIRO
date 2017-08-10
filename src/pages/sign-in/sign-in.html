@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Sign in
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page7">
+  <form id="signIn-form5">
+    <ion-list id="signIn-list2">
+      <ion-item id="signIn-input1">
+        <ion-label>
+          E-mail
+        </ion-label>
+        <ion-input type="email" placeholder="" name="email"></ion-input>
+      </ion-item>
+      <ion-item id="signIn-input2">
+        <ion-label>
+          Password
+        </ion-label>
+        <ion-input type="password" placeholder="" name="password"></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="height:40px;" id="signIn-spacer3"></div>
+    <button id="signIn-button14" ion-button color="positive" block on-click="goToPreferences()">
+      Log in
+    </button>
+    <button id="signIn-button15" ion-button outline color="positive" block small on-click="goToSignUp()">
+      Forgot password?
+    </button>
+    <div class="spacer" style="height:40px;" id="signIn-spacer8"></div>
+    <button id="signIn-button17" ion-button outline color="positive" block on-click="goToSignUp()">
+      Or create an account
+    </button>
+  </form>
+</ion-content>

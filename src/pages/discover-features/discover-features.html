@@ -1,0 +1,42 @@
+<ion-content padding id="page2">
+
+  <div id="map" #map ></div>
+  <!-- Placeholder 
+  <div>
+    <img src="assets/img/0gBs8FD7QbGROWsnHGGo_PlaceHolder.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  </div>
+  -->
+  <ion-grid>
+    <ion-row>
+      <ion-col width-50>
+        <button style="width:100%;" id="discoverFeatures-button3" ion-button color="positive">
+          <ion-icon name="sync"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col width-50>
+        <button style="width:100%;" id="discoverFeatures-button18" ion-button color="positive">
+          <ion-icon name="information-circle" (click)="openModal()"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  
+  <button id="discoverFeatures-button4" ion-button outline color="positive" block  on-click=submitPoints()>
+    Submit
+  </button>
+  <form id="discoverFeatures-form1">
+    <ion-item name="identifiedFeatures" id="discoverFeatures-checkbox1">
+      <ion-label>
+        Identified features
+      </ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <ion-item name="confirmedFeatures" id="discoverFeatures-checkbox2">
+      <ion-label>
+        Confirmed features
+      </ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+  </form>
+</ion-content>
