@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { DiscoverFeaturesPage } from '../discover-features/discover-features';
@@ -13,14 +13,14 @@ import { LearnMorePage } from '../learn-more/learn-more';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
-export class HomePage {
+export class HomePage{
 
-  /* Custom code and functions here */
   appTitle: string = 'Welcome';
-
   constructor(public navCtrl: NavController) {
-    console.log(this.appTitle);
+    console.log(this.appTitle); 
   }
+  
+  /* Custom code and functions here */
 
   goToDiscoverFeatures(params){
     if (!params) params = {};
@@ -46,5 +46,5 @@ export class HomePage {
   }
 
   /* Custom code and functions here */
-
+  
 }  

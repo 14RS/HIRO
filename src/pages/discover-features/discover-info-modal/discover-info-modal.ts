@@ -18,5 +18,6 @@ export class DiscoverInfoModal {
   }
   closeModal() {
     this.viewCtrl.dismiss();
+    console.log('Modal close clicked');      
   }
 }
