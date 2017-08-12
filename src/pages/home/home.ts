@@ -1,6 +1,8 @@
+// Framework
 import {Component} from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+// Pages
 import { DiscoverFeaturesPage } from '../discover-features/discover-features';
 import { LiveImagesPage } from '../live-images/live-images';
 import { ThankYouPage } from '../thank-you/thank-you';

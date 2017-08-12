@@ -1,3 +1,4 @@
+// Framework
 import { Component, 
          OnInit, 
          ElementRef, 
@@ -8,12 +9,14 @@ import { ModalController,
          Platform, 
          ActionSheetController } from 'ionic-angular';
 
+// Pages
 import { ThankYouPage } from '../thank-you/thank-you';
 import { SignInPage } from '../sign-in/sign-in';
 import { SignUpPage } from '../sign-up/sign-up';
 import { PreferencesPage } from '../preferences/preferences';
 import { LearnMorePage } from '../learn-more/learn-more';
 
+// Modals
 import { DiscoverInfoModal } from './discover-info-modal/discover-info-modal';
 import { EsriLoaderService } from 'angular-esri-loader';
 

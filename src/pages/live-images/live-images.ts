@@ -1,3 +1,4 @@
+//Framework
 import { Component, 
          OnInit, 
          ElementRef, 
@@ -6,6 +7,7 @@ import { ModalController,
          NavController,
          AlertController, } from 'ionic-angular';
 
+// Pages
 import { DiscoverFeaturesPage } from '../discover-features/discover-features';
 import { ThankYouPage } from '../thank-you/thank-you';
 import { SignInPage } from '../sign-in/sign-in';
@@ -13,6 +15,7 @@ import { SignUpPage } from '../sign-up/sign-up';
 import { PreferencesPage } from '../preferences/preferences';
 import { LearnMorePage } from '../learn-more/learn-more';
 
+// Modals
 import { LiveInfoModal } from './live-info-modal/live-info-modal';
 import { EsriLoaderService } from 'angular-esri-loader';
 

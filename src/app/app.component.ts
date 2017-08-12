@@ -1,8 +1,10 @@
+// Framework
 import { Component, ViewChild } from '@angular/core';
 import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+// Pages
 import { HomePage } from '../pages/home/home';
 import { DiscoverFeaturesPage } from '../pages/discover-features/discover-features';
 import { LiveImagesPage } from '../pages/live-images/live-images';
@@ -13,8 +15,6 @@ import { PreferencesPage } from '../pages/preferences/preferences';
 import { AboutUsPage } from '../pages/about-us/about-us';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { LearnMorePage } from '../pages/learn-more/learn-more';
-
-
 
 @Component({
   templateUrl: 'app.html'

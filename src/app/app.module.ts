@@ -1,7 +1,11 @@
+// Framework
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
+//Pages
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { DiscoverFeaturesPage } from '../pages/discover-features/discover-features';
@@ -14,12 +18,10 @@ import { PreferencesPage } from '../pages/preferences/preferences';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { LearnMorePage } from '../pages/learn-more/learn-more';
 
+// Modals
 import { DiscoverInfoModal } from '../pages/discover-features/discover-info-modal/discover-info-modal';
 import { LiveInfoModal } from '../pages/live-images/live-info-modal/live-info-modal';
 
-
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
