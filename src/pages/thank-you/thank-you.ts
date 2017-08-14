@@ -4,8 +4,8 @@ import { NavController } from 'ionic-angular';
 
 // Pages
 import { HomePage } from '../home/home';
-import { SignInPage } from '../sign-in/sign-in';
-import { SignUpPage } from '../sign-up/sign-up';
+//import { SignInPage } from '../sign-in/sign-in';
+//import { SignUpPage } from '../sign-up/sign-up';
 import { PreferencesPage } from '../preferences/preferences';
 import { LearnMorePage } from '../learn-more/learn-more';
 
@@ -25,15 +25,15 @@ export class ThankYouPage {
   }goToLearnMore(params){
     if (!params) params = {};
     this.navCtrl.push(LearnMorePage);
-  }goToSignIn(params){
-    if (!params) params = {};
-    this.navCtrl.push(SignInPage);
+  //}goToSignIn(params){
+  //  if (!params) params = {};
+  //  this.navCtrl.push(SignInPage);
   }goToPreferences(params){
     if (!params) params = {};
     this.navCtrl.push(PreferencesPage);
-  }goToSignUp(params){
-    if (!params) params = {};
-    this.navCtrl.push(SignUpPage);
+  //}goToSignUp(params){
+  //  if (!params) params = {};
+  //  this.navCtrl.push(SignUpPage);
   }
 
   /* Custom code and functions here */

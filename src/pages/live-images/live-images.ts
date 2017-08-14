@@ -10,8 +10,8 @@ import { ModalController,
 // Pages
 import { DiscoverFeaturesPage } from '../discover-features/discover-features';
 import { ThankYouPage } from '../thank-you/thank-you';
-import { SignInPage } from '../sign-in/sign-in';
-import { SignUpPage } from '../sign-up/sign-up';
+//import { SignInPage } from '../sign-in/sign-in';
+//import { SignUpPage } from '../sign-up/sign-up';
 import { PreferencesPage } from '../preferences/preferences';
 import { LearnMorePage } from '../learn-more/learn-more';
 
@@ -40,12 +40,12 @@ export class LiveImagesPage implements OnInit {
   }goToThankYou(params){
     if (!params) params = {};
     this.navCtrl.push(ThankYouPage);
-  }goToSignIn(params){
-    if (!params) params = {};
-    this.navCtrl.push(SignInPage);
-  }goToSignUp(params){
-    if (!params) params = {};
-    this.navCtrl.push(SignUpPage);
+  //}goToSignIn(params){
+  //  if (!params) params = {};
+  //  this.navCtrl.push(SignInPage);
+  //}goToSignUp(params){
+  //  if (!params) params = {};
+  //  this.navCtrl.push(SignUpPage);
   }goToPreferences(params){
     if (!params) params = {};
     this.navCtrl.push(PreferencesPage);
