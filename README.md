@@ -1,26 +1,91 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+###TODO
+-switch maps button test
+-remove sign in/ sign up pages and options
 
-## How to use this template
+##-----------------------------------
+http://blog.teamtreehouse.com/install-node-js-npm-windows
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+http://blog.ionic.io/announcing-ionic-cli-v3/
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+https://docs.google.com/document/d/1r8nTAaJ5hLIJ1DCwBozU-JGV480Du0xCMIg2dj3JRQo/edit#
 
-### With the Ionic CLI:
+https://dev.to/hitman666/how-to-create-a-calculator-application-with-ionic-framework-3-by-using-ionic-creator-for-ui
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+http://getbootstrap.com/components/#btn-groups
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+https://alligator.io/ionic/modals/
 
-Then, to run it, cd into `myBlank` and run:
+https://github.com/andygup/ionic2-esri-map#ionic2-esri-map
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+https://github.com/Esri/angular-esri-map/blob/master/README.md#what-about-angular-2
 
-Substitute ios for android if not on a Mac.
+https://github.com/tomwayson/angular-esri-loader
 
+https://developers.arcgis.com/javascript/latest/api-reference/esri-Map.html
+
+##----------------INSTRUCTIES--------------------------------------
+
+All commands are to be typed in CMD.
+
+Simply follow all steps for direct insertion of template from ionic creator (src folder).
+
+https://drive.google.com
+
+For complete project download and insertion skip step 5 and 7. For step 5 extract the downloaded archive.
+
+https://drive.google.com
+
+or
+
+GitHub
+
+
+###1)
+Install Nodejs
+https://nodejs.org/en/download/
+
+###2)
+verify node and npm version in cmd
+
+node -v 
+npm -v
+
+node should be above 6
+npm should be above 3
+
+###3)
+install ionic via cmd (-g for global)
+
+npm uninstall -g ionic
+npm install -g ionic@latest
+
+###4)
+install cordova
+
+npm install -g cordova
+
+###5)
+navigate to a new folder (cd App) in which you want to create a full app
+
+ionic start HIRO blank
+
+then choose yes
+
+###6)
+go into the new folder App/HIRO
+
+cd HIRO
+
+###7)
+copy (overwrite) the downloaded project template folder src into your new app folder
+
+project template folder is available here
+
+###8)
+run app locally by typing
+
+ionic serve
+- or -
+ionic lab
+
+(for OS comparison)
