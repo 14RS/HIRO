@@ -195,6 +195,8 @@ export class DiscoverFeaturesPage implements OnInit {
 
   // Swap between different maps
   swapMap() {
+    let map : any = Map
+    map.basemap = "hybrid";
     console.log('Swap map clicked');
     
   }
